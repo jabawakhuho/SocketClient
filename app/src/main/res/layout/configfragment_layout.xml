@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    >
+    <EditText
+        android:id="@+id/txt_ip"
+        style="@style/configStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="70.12.112.92"
+        />
+    <EditText
+        android:id="@+id/txt_port"
+        style="@style/configStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="9090"/>
+    <EditText
+        android:id="@+id/txt_nickname"
+        style="@style/configStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="닉네임"/>
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hyun"/>
+    <Button
+        android:id="@+id/bt_regist"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="적용"/>
+
+</LinearLayout>
